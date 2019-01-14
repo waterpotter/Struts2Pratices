@@ -8,9 +8,9 @@
 </head>
 <body>
 	
-	<form action="${pageContext.request.contextPath}/regist.action" method="post">
-		用户名:<input type="text" name="username"/><br>
-		密码:<input type="password" name="password"/><br>
+	<form action="${pageContext.request.contextPath}/person/regist.action" method="post">
+		用户名:<input type="text" name="person.username"/><br>
+		密码:<input type="password" name="person.password"/><br>
 		<input type="submit" value="提交"/>
 	</form>
 
