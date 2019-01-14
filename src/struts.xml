@@ -7,6 +7,7 @@
 	<constant name="struts.devMode" value="true"></constant>
 	<!-- <include file="webstruts1.xml"></include> -->
 	<!-- <include file="webstruts2.xml"></include> -->
-	<include file="webstruts3.xml"></include>
+	<!-- <include file="webstruts3.xml"></include> -->
+	<include file="webstruts4.xml"></include>
 
 </struts>	
