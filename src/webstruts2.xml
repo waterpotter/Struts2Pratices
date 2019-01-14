@@ -25,5 +25,36 @@
 			</result>
 		</action>
 	</package>
+	
+	<package name="p5" extends="struts-default">
+		
+		<result-types>
+			<result-type name="captcha" class="com.power.using.CaptachaResult">
+				
+			</result-type>
+		</result-types>
+	
+		<action name="captcha">
+			<result name="success" type="captcha">
+				<param name="grLineNum">500</param>
+				<param name="numCount">4</param>
+			</result>
+		</action>
+	</package>
+	
+	<package name="p6">
+		
+		<action name="demodd" class="com.power.using.Demo2Action" method="doSo">
+			
+			
+			
+		</action>
+	
+	</package>
+	
+	
+	
+	
+	
 
 </struts>	
