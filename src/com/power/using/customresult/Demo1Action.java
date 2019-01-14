@@ -1,4 +1,4 @@
-package com.power.using;
+package com.power.using.customresult;
 
 import com.opensymphony.xwork2.ActionSupport;
 

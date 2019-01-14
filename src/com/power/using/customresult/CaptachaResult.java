@@ -1,4 +1,4 @@
-package com.power.using;
+package com.power.using.customresult;
 
 import java.awt.image.BufferedImage;
 
