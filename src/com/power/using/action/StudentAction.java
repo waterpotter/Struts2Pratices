@@ -36,7 +36,7 @@ public class StudentAction extends ActionSupport implements ModelDriven<Student>
 			if(hobbies!=null&&hobbies.length>0){
 				StringBuffer sb = new StringBuffer();
 				for (int i = 0; i < hobbies.length; i++) {
-					if(i<hobbies.length-1){
+					if(i>0){
 						sb.append(",");
 					}
 					sb.append(hobbies[i]);
