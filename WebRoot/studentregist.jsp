@@ -11,7 +11,9 @@
 <title>Insert title here</title>
 </head>
 <body>
-
+	<s:fielderror>
+		
+	</s:fielderror>
 	<s:form action="regist" namespace="/student">
 		<s:textfield name="username" label="用户名" requiredLabel="true"
 			requiredPosition="left"></s:textfield>
